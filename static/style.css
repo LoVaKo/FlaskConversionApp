@@ -1,0 +1,51 @@
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #7ea381;
+    color: #323333;
+}
+
+.container {
+    background-color: #e9f2e9;
+    border-radius: 12px;
+    width: 38%;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px 35px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    line-height: 1.2;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #97c29b;
+    text-shadow: 2px 2px #7ea381;
+    letter-spacing: 7px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 39px;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #7ea381;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 12px;
+    margin-top: 12px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]:hover {
+    background-color: #97c29b;
+}

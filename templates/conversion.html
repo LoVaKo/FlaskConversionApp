@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Conversion Practice</title>
+		<link rel="stylesheet" href="/static/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Conversion Practice</h1>
+			<div class="regular">Converting from {{original_notation}}: {{original_value}}</div>
+	
+			<form method="POST" action="/check_answer">
+				<input type="hidden" name="original_value" value="{{original_value}}">
+				<input type="hidden" name="conversion_type" value="{{conversion_type}}">
+				<label for="answer">To {{new_notation}}:</label><br>
+				<input type="text" id="answer" name="answer" required></input><br>
+				<input type="submit" value="Check answer">
+			</form><br>
+		</div>	
+	</body>
+</html>

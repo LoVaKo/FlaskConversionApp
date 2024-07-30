@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Conversion Practice</title>
+		<link rel="stylesheet" href="/static/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Conversion Practice</h1>
+			<div class="regular">
+			Converting {{original_value}} from {{original_notation}} to {{new_notation}}<br>
+			Your answer: {{user_answer}}<br>
+			{{ "You're right!" if is_correct else "Alas, that's not right." }}<br>
+			{% if not is_correct %}
+			The right answer is: {{correct_answer}}
+			{% endif %}
+			</div>	
+
+			<form method="GET" action="/">
+				<input type="submit" value="New Conversion">
+			</form>
+		</div>
+	</body>
+</html>

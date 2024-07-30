@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Conversion Practice</title>
+		<link rel="stylesheet" href="/static/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Conversion Practice</h1>
+			<form method="POST" action="/new_conversion">
+				<label for="conversion_type">Which type of conversion would you like to practice?</label><br>
+				<input type="radio" id="BINARY_TO_DECIMAL" name="conversion_type" value="BINARY_TO_DECIMAL">Binary to Decimal<br>
+				<input type="radio" id="BINARY_TO_HEX" name="conversion_type" value="BINARY_TO_HEX">Binary to Hexadecimal<br>
+				<input type="radio" id="DECIMAL_TO_BINARY" name="conversion_type" value="DECIMAL_TO_BINARY">Decimal to Binary<br>
+				<input type="radio" id="DECIMAL_TO_HEX" name="conversion_type" value="DECIMAL_TO_HEX">Decimal to Hexadecimal<br>
+				<input type="radio" id="HEX_TO_BINARY" name="conversion_type" value="HEX_TO_BINARY">Hexadecimal to Binary<br>
+				<input type="radio" id="HEX_TO_DECIMAL" name="conversion_type" value="HEX_TO_DECIMAL">Hexadecimal to Decimal<br>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</body>
+</html>
