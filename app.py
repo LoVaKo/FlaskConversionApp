@@ -55,5 +55,3 @@ def check_answer():
     return render_template("result.html", is_correct=is_correct, correct_answer=correct_answer, user_answer=user_answer, original_value=original_value, original_notation=original_notation_str, new_notation=new_notation_str)
     
 
-if __name__ == "__main__":
-    app.run(debug=True)
